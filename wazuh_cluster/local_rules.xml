@@ -19,3 +19,18 @@
   </rule>
 
 </group>
+
+
+<group name="ids,">
+  <rule id="30220" level="3">
+    <if_sid>20101</if_sid>
+    <match>1:1000012:1</match>
+    <description>Detecção de SYN Flood</description>
+    <mitre>
+      <id>T1498</id>
+    </mitre>
+    <group>pci_dss_11.4,gdpr_IV_35.7.d,nist_800_53_SI.4,</group>
+  </rule>
+</group>
+
+
